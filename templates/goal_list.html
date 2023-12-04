@@ -1,0 +1,7 @@
+{% for goal in goals %}
+  <h3>{{ goal.title }}</h3>
+  <p>{{ goal.description }}</p>
+  <p>Due Date: {{ goal.deadline }}</p>
+  <p>Completed: {{ goal.completed }}</p>
+  <hr>
+{% endfor %}
